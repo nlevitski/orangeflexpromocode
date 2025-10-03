@@ -1,0 +1,50 @@
+name: Deploy orangeflexpromocode with pnpm
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js and pnpm
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: "pnpm"
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+        # --frozen-lockfile гарантирует, что будут установлены точно те версии, что в lock-файле
+
+      - name: Build application
+        run: pnpm run build
+
+      - name: Deploy to VPS via SSH
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.VPS_HOST }}
+          username: ${{ secrets.VPS_USER }}
+          key: ${{ secrets.VPS_SSH_KEY }}
+          script: |
+            # Переходим в папку вашего проекта на VPS
+            cd /var/www/orangeflexpromocode
+
+            # Скачиваем последние изменения
+            git pull origin main
+
+            # Устанавливаем/обновляем зависимости
+            pnpm install --frozen-lockfile
+
+            # Собираем проект на сервере
+            pnpm run build
+
+            # Перезапускаем приложение с помощью PM2
+            # 'your-app-name' - это имя, которое вы задали при старте (pm2 start ... --name "your-app-name")
+            pm2 restart orange
