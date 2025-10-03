@@ -36,7 +36,16 @@ jobs:
           username: ${{ secrets.VPS_USER }}
           key: ${{ secrets.VPS_SSH_KEY }}
           script: |
+            # Загрузка fnm (Fast Node Manager)
+            export PATH="$HOME/.local/share/fnm:$PATH"
+            eval "$(fnm env --use-on-cd)"
+
+            # Загрузка переменных окружения
             source ~/.profile
+            source ~/.bashrc 2>/dev/null || true
+
+            # Добавление путей для pnpm и pm2
+            export PATH="$HOME/.local/share/pnpm:$HOME/.pnpm-global/bin:$PATH"
 
             # Переходим в папку вашего проекта на VPS
             cd /var/www/orangeflexpromocode
