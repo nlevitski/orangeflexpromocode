@@ -13,24 +13,21 @@ export function generateStaticParams() {
 
 type LocaleLayoutProps = {
 	children: ReactNode;
-	params: Promise<{ locale: 'en' | 'pl' | 'ua' | 'ru' }>;
+	params: Promise<{ locale: string }>;
 };
 
 export default async function LocaleLayout({
 	children,
 	params,
 }: LocaleLayoutProps) {
-	const {
-		0: { locale },
-		1: messages,
-	} = await Promise.all([params, getMessages()]);
-	const supportedLocale = locale as 'en' | 'pl' | 'ua' | 'ru';
-	if (!routing.locales.includes(supportedLocale)) {
+	const { locale } = await params;
+	const messages = await getMessages();
+	if (!routing.locales.includes(locale as 'en' | 'pl' | 'ua' | 'ru')) {
 		notFound();
 	}
 
 	return (
-		<html lang={supportedLocale}>
+		<html lang={locale}>
 			<body className={tildaSans.variable}>
 				<NextIntlClientProvider messages={messages.menu} locale={locale}>
 					<Menu />
