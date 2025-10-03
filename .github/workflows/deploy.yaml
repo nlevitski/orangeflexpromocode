@@ -1,4 +1,4 @@
-name: Deploy orangeflexpromocode with pnpm
+name: Deploy Next.js App with pnpm
 
 on:
   push:
@@ -12,8 +12,12 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v3
+        with:
+          version: 10
 
-      - name: Setup Node.js and pnpm
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: "22"
@@ -21,7 +25,6 @@ jobs:
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
-        # --frozen-lockfile гарантирует, что будут установлены точно те версии, что в lock-файле
 
       - name: Build application
         run: pnpm run build
@@ -39,12 +42,11 @@ jobs:
             # Скачиваем последние изменения
             git pull origin main
 
-            # Устанавливаем/обновляем зависимости
+            # Устанавливаем/обновляем зависимости (здесь pnpm уже должен быть)
             pnpm install --frozen-lockfile
 
             # Собираем проект на сервере
             pnpm run build
 
             # Перезапускаем приложение с помощью PM2
-            # 'your-app-name' - это имя, которое вы задали при старте (pm2 start ... --name "your-app-name")
             pm2 restart orange
