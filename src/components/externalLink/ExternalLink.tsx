@@ -5,16 +5,18 @@ type ExternalLinkProps = {
 	children: ReactNode;
 	marginH?: boolean;
 	style?: CSSProperties;
+    className?: string;
 };
 export const ExternalLink = async ({
 	href,
 	children,
 	style,
 	marginH,
+    className,
 }: ExternalLinkProps) => {
 	return (
 		<a
-			className={`${styles.button} ${marginH ? styles.marginH : ''}`}
+            className={`${styles.button} ${marginH ? styles.marginH : ''} ${className ?? ''}`}
 			href={href}
 			target="_blank"
 			rel="noopener noreferrer"
