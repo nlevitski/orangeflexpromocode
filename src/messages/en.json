@@ -1,0 +1,172 @@
+{
+	"notFound": {
+		"title": "404 - Page Not Found",
+		"description": "The page you are looking for does not exist."
+	},
+	"howDoesItWork": {
+		"title": {
+			"part1": "How",
+			"part2": "does",
+			"part3": "it work?"
+		},
+		"steps": {
+			"step1": {
+				"order": "1",
+				"content": {
+					"part1": "Scan or tap the QR code"
+				}
+			},
+			"step2": {
+				"order": "2",
+				"content": {
+					"part1": "Install the app"
+				}
+			},
+			"step3": {
+				"order": "3",
+				"content": {
+					"part1": "Follow the instructions on the link below"
+				}
+			},
+			"step4": {
+				"order": "4",
+				"content": {
+					"part1": "By promo code",
+					"part2": "ALIAKSANDR8C6M",
+					"part3": "get 30 ZŁ + unlimited internet"
+				}
+			}
+		},
+		"button": {
+			"link": {
+				"instruction": "Step-by-step instruction"
+			}
+		}
+	},
+	"hero": {
+		"title": "UA, EN, PL, RU instructions for connecting esim from Orange Flex \nThe best mobile operator in poland and EU",
+		"paragraph": "Bonus with promo code 30 zł, \none month free, \nunlimited internet in Poland and EU"
+	},
+	"menu": {
+		"instruction": "Instruction",
+		"main": "Main"
+	},
+	"instruction": {
+		"title": "Instruction"
+	},
+	"mainInstruction": {
+		"qrCodeImage": {
+			"caption": "QR code",
+			"instruction": "Выбери язык и отсканируй QR код"
+		},
+		"title": "Mobile operator Orange Flex",
+		"paragraph1": "If you decide to buy a Polish or European SIM or eSIM card, the best offer from the mobile operator Orange Flex will help you. You will get a not expensive tariff plan and a month of use for free + unlimited internet monthly to all social networks.",
+		"subtitle1": "What is Orange Flex?",
+		"paragraph2": "Orange Flex is a virtual mobile operator whose services you can subscribe to in the app without any obligation.",
+		"paragraph3": "Download the mobile application by scanning the QR code and join the network from the comfort of your home.",
+		"subtitle2": "No matter which tariff plan you choose, you will always receive: ",
+		"unorderedList1": {
+			"listItem1": "Free in-network calls",
+			"listItem2": "Unlimited SMS, MMS",
+			"listItem3": "Unlimited internet in Poland and roaming in the EU"
+		},
+		"paragraph4": "You can change the number of gigabytes according to your needs at any time and then add packages and subscriptions (e.g. unlimited streaming video and music).",
+		"paragraph5": "You can try the offer in the cheapest variant for 35 zł:",
+		"unorderedList2": {
+			"listItem1": "Plan za 35 zł: internet 75 GB, роуминг 10,18 GB EU",
+			"listItem2": "Plan za 50 zł: internet 150 GB, роуминг 14,54 GB EU",
+			"listItem3": "Plan za 80 zł: internet UNLIMITED, роуминг 23,26 GB EU"
+		},
+		"subtitle3": "Get 30 zł on your account.",
+		"paragraph6": "Unlimited calls, SMS, MMS in Poland and roaming in the EU.",
+		"subtitle4": "Advantages of this tariff plan:",
+		"unorderedList3": {
+			"listItem1": "It is easy to connect remotely without leaving your country in 5 minutes",
+			"listItem2": "If you use a promo code, you get unlimited internet and 30 PLN bonus on your account.",
+			"listItem3": "Internet roaming within the EU is included in the package.",
+			"listItem4": "You can buy additional packages in the app",
+			"listItem5": "Free calls within the network",
+			"listItem6": "You can choose your own phone number from the offered ones",
+			"listItem7": "Transfer of already existing number to Orange Flex tariff plan"
+		},
+		"paragraph7": {
+			"part1": "If you use the code",
+			"part2": "❗️ALIAKSANDR8C6M❗️",
+			"part3": "and stay with Orange Flex for at least one month, you will receive a gift of 30 zł. The amount will be credited automatically as soon as you pay for the next month."
+		},
+		"paragraph8": "You can spend this money on services in Orange Flex or simply transfer it to your bank account."
+	},
+	"instructionPage": {
+		"hero": {
+			"title": "Step-by-step instructions for connecting eSIM from Orange Flex",
+			"paragraph1": {
+				"part1": "Below you will find detailed instructions on how to connect to the best mobile operator in Poland and EU. By entering Orange Flex promo code",
+				"part2": "❗️ALIAKSANDR8C6M❗️",
+				"part3": "get 30 zł on your personal account and unlimited internet in Poland and roaming in the EU."
+			},
+			"paragraph2": "Get a bonus after the first month of use"
+		},
+		"button": {
+			"downloadOrangeApp": "Download the Orange Flex app",
+			"detailedTextWithPhotoAndVideo": "Detailed text with Photo and Video instructions"
+		},
+		"title1": "Where to start?",
+		"unorderedList1": {
+			"listItem1": "Turn on the camera on your phone and scan the QR code or click on the link to download the Orange Flex app.",
+			"listItem2": "Install the application. Go through the registration process."
+		},
+		"title2": "What's the next step?",
+		"steps": {
+			"step1": {
+				"title": "Step 1",
+				"unorderedList": {
+					"listItem1": "Select the required package.",
+					"paragraph": "For example, 30 GB per month for 30 zl. \nRegister via email.",
+					"listItem2": "Choose a new phone number from the available options. Select a free SIM card and scan the Esim QR code."
+				}
+			},
+			"step2": {
+				"title": "Step 2",
+				"unorderedList": {
+					"listItem1": "Confirm your identity with one of the documents offered. Take a photo of the document. Send it. Take a selfie and upload it.",
+					"listItem2": "Check the information, if everything matches, check two boxes and click OK."
+				}
+			},
+			"step3": {
+				"title": "Step 3",
+				"unorderedList": {
+					"listItem1": {
+						"part1": "In the line DO YOU HAVE A PROMOTION CODE? enter the code",
+						"part2": "ALIAKSANDR8C6M",
+						"part3": "shown in the image below or check if it is available."
+					},
+					"listItem2": "Enter your card details and pay for the tariff plan.",
+					"listItem3": "Activate the tariff plan."
+				}
+			}
+		},
+		"title3": "Step 3 Enter the code",
+		"unorderedList2": {
+			"listItem1": "If you have scanned the QR code, the promo code will be entered automatically. You must verify that you have the promo code.",
+			"listItem2": {
+				"part1": "If you have not scanned the QR code, enter the code manually in the MASZ KOD PROMOCYJNY? / DO YOU HAVE A PROMO CODE? field after verifying your identity",
+				"part2": "ALIAKSANDR8C6M"
+			},
+			"paragraph": "as shown in the picture in the code entry field and press \"Confirm code\"."
+		},
+		"warning": "Attention!",
+		"paragraph1": {
+			"part1": "The code must be entered",
+			"part2": "Before selecting the payment place!"
+		},
+		"title4": "Step 3 Verify the code",
+		"unorderedList3": {
+			"listItem1": {
+				"part1": "If you have done everything correctly - you will see a message that the promo code",
+				"part2": "ALIAKSANDR8C6M",
+				"part3": "has been successfully activated."
+			}
+		},
+		"paragraph2": "Congratulations! After 30 days you will receive PLN 30 on your balance when you renew for the second month of the tariff plan."
+	}
+}

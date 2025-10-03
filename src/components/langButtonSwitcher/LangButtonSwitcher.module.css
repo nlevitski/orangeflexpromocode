@@ -1,0 +1,15 @@
+.button {
+	display: inline-flex;
+	justify-content: center;
+	flex-grow: 1;
+	border: 3px solid var(--background);
+	border-radius: 40px;
+	padding: 10px 16px;
+	line-height: 1.5;
+	text-transform: none;
+	color: var(--text-seconary);
+	text-transform: uppercase;
+	font-size: 18px;
+	line-height: 22px;
+	font-weight: 700;
+}

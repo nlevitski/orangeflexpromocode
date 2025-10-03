@@ -1,0 +1,172 @@
+{
+	"notFound": {
+		"title": "404 - Page Not Found",
+		"description": "The page you are looking for does not exist."
+	},
+	"howDoesItWork": {
+		"title": {
+			"part1": "Jak",
+			"part2": "to",
+			"part3": "działa?"
+		},
+		"steps": {
+			"step1": {
+				"order": "1",
+				"content": {
+					"part1": "Zeskanuj lub kliknij kod QR"
+				}
+			},
+			"step2": {
+				"order": "2",
+				"content": {
+					"part1": "Zainstaluj aplikację"
+				}
+			},
+			"step3": {
+				"order": "3",
+				"content": {
+					"part1": "Postępuj zgodnie z instrukcjami na poniższym linku"
+				}
+			},
+			"step4": {
+				"order": "4",
+				"content": {
+					"part1": "Za pomocą kodu promocyjnego",
+					"part2": "ALIAKSANDR8C6M",
+					"part3": "otrzymaj 30 ZŁ + nielimitowany internet."
+				}
+			}
+		},
+		"button": {
+			"link": {
+				"instruction": "Instrukcja krok po kroku"
+			}
+		}
+	},
+	"hero": {
+		"title": "UA, EN, PL, RU instrukcja \nbonus z kodem promocyjnym 30 zł, miesiąc za darmo, \nNajlepszy operator komórkowy w Polsce i UE",
+		"paragraph": "Bonus z kodem promocyjnym 30 zł, \nmiesiąc za darmo, \nnielimitowany internet w Polsce i UE"
+	},
+	"menu": {
+		"instruction": "Instrukcja",
+		"main": "Główna"
+	},
+	"instruction": {
+		"title": "Instrukcja"
+	},
+	"mainInstruction": {
+		"qrCodeImage": {
+			"caption": "QR-kod",
+			"instruction": "Wybierz język i zeskanuj kod QR"
+		},
+		"title": "Operator komórkowy Orange Flex",
+		"paragraph1": "Jeśli zdecydowałeś się na zakup polskiej lub europejskiej karty SIM lub eCIM, pomoże Ci w tym najlepsza oferta operatora komórkowego Orange Flex. Otrzymasz tani plan taryfowy i miesiąc korzystania za darmo + nielimitowany internet miesięcznie do wszystkich portali społecznościowych.",
+		"subtitle1": "Czym jest Orange Flex?",
+		"paragraph2": "Orange Flex to wirtualny operator komórkowy, którego usługi można bez zobowiązań subskrybować w aplikacji.",
+		"paragraph3": "Pobierz aplikację mobilną, skanując kod QR i dołącz do sieci w zaciszu własnego domu.",
+		"subtitle2": "Niezależnie od wybranego planu taryfowego, zawsze otrzymasz:",
+		"unorderedList1": {
+			"listItem1": "Bezpłatne połączenia wewnątrz sieci",
+			"listItem2": "Nielimitowane SMS-y, MMS-y",
+			"listItem3": "Nielimitowany internet w Polsce i w roamingu w UE"
+		},
+		"paragraph4": "W każdej chwili możesz zmienić liczbę gigabajtów zgodnie ze swoimi potrzebami, a następnie dodać pakiety i subskrypcje (np. nielimitowany streaming wideo i muzyki).",
+		"paragraph5": "Ofertę można wypróbować w najtańszym wariancie za 35 zł:",
+		"unorderedList2": {
+			"listItem1": "Plan za 35 zł: internet 75 GB, roaming 10,18 GB EU",
+			"listItem2": "Plan za 50 zł: internet 150 GB, роуминг 14,54 GB EU",
+			"listItem3": "Plan za 80 zł: internet UNLIMITED, роуминг 23,26 GB EU"
+		},
+		"subtitle3": "Otrzymać 30 zł na konto.",
+		"paragraph6": "Nielimitowane rozmowy, SMS-y, MMS-y w Polsce i roaming w UE.",
+		"subtitle4": "Zalety tego planu taryfowego:",
+		"unorderedList3": {
+			"listItem1": "Łatwo połączyć się zdalnie bez opuszczania kraju, w 5 minut",
+			"listItem2": "Jeśli użyjesz kodu promocyjnego, otrzymasz nielimitowany internet i 30 zł bonusu na koncie.",
+			"listItem3": "Internet w roamingu na terenie UE jest wliczony w pakiet.",
+			"listItem4": "W aplikacji można dokupić dodatkowe pakiety",
+			"listItem5": "Darmowe połączenia wewnątrz sieci",
+			"listItem6": "Możliwość wyboru własnego numeru telefonu spośród oferowanych",
+			"listItem7": "Przeniesienie istniejącego numeru do planu taryfowego Orange Flex"
+		},
+		"paragraph7": {
+			"part1": "Jeśli skorzystasz z kodu",
+			"part2": "❗️ALIAKSANDR8C6M❗️",
+			"part3": "i pozostaniesz z Orange Flex przez co najmniej miesiąc, otrzymasz prezent w wysokości 30 zł. Kwota zostanie naliczona automatycznie, gdy tylko zapłacisz za kolejny miesiąc."
+		},
+		"paragraph8": "Pieniądze te można wydać na usługi w Orange Flex lub po prostu przelać na swoje konto bankowe."
+	},
+	"instructionPage": {
+		"hero": {
+			"title": "Instrukcje krok po kroku dotyczące podłączania eSIM z Orange Flex",
+			"paragraph1": {
+				"part1": "Poniżej znajdziesz szczegółowe instrukcje, jak połączyć się z najlepszym operatorem komórkowym w Polsce i UE. Wpisując kod promocyjny Orange Flex",
+				"part2": "❗️ALIAKSANDR8C6M❗️",
+				"part3": "otrzymasz 30 zł na konto osobiste oraz nielimitowany internet w Polsce i roaming w UE"
+			},
+			"paragraph2": "Otrzymaj bonus po pierwszym miesiącu użytkowania"
+		},
+		"button": {
+			"downloadOrangeApp": "Pobierz aplikację Orange Flex",
+			"detailedTextWithPhotoAndVideo": "Szczegółowy tekst ze zdjęciami i instrukcjami wideo"
+		},
+		"title1": "Od czego zacząć?",
+		"unorderedList1": {
+			"listItem1": "Włącz aparat w telefonie i zeskanuj kod QR lub kliknij łącze, aby pobrać aplikację Orange Flex.",
+			"listItem2": "Zainstaluj aplikację. Przejdź przez proces rejestracji."
+		},
+		"title2": "Jaki jest następny krok?",
+		"steps": {
+			"step1": {
+				"title": "Krok 1.",
+				"unorderedList": {
+					"listItem1": "Wybierz wymagany pakiet.",
+					"paragraph": "Na przykład 30 GB miesięcznie za 30 zł. Zarejestruj się przez e-mail.",
+					"listItem2": "Wybierz nowy numer telefonu spośród dostępnych opcji. Wybierz bezpłatną kartę SIM i zeskanuj kod QR Esim"
+				}
+			},
+			"step2": {
+				"title": "Krok 2.",
+				"unorderedList": {
+					"listItem1": "Potwierdź swoją tożsamość jednym z oferowanych dokumentów. Zrób zdjęcie dokumentu. Wyślij go. Zrób selfie i wyślij je.",
+					"listItem2": "Sprawdź informacje, jeśli wszystko się zgadza, zaznacz dwa pola i kliknij OK."
+				}
+			},
+			"step3": {
+				"title": "Krok 3.",
+				"unorderedList": {
+					"listItem1": {
+						"part1": "W wierszu MASZ KOD PROMOCYJNY? / DO YOU HAVE A PROMO CODE? wpisz kod",
+						"part2": "ALIAKSANDR8C6M",
+						"part3": "widoczny na poniższym zdjęciu lub sprawdź, czy jest dostępny."
+					},
+					"listItem2": "Wprowadź dane karty i zapłać za plan taryfowy.",
+					"listItem3": "Aktywuj plan taryfowy."
+				}
+			}
+		},
+		"title3": "Krok 3. Wprowadź kod",
+		"unorderedList2": {
+			"listItem1": "Jeśli zeskanowałeś kod QR, kod promocyjny zostanie wprowadzony automatycznie. Musisz sprawdzić, czy masz kod promocyjny.",
+			"listItem2": {
+				"part1": "Jeśli nie zeskanowałeś kodu QR, wprowadź kod ręcznie w polu MASZ KOD PROMOCYJNY? / DO YOU HAVE A PROMO CODE? po zweryfikowaniu swojej tożsamości",
+				"part2": "ALIAKSANDR8C6M"
+			},
+			"paragraph": "jak pokazano na zdjęciu w polu wprowadzania kodu i naciśnij \"Potwierdź kod\"."
+		},
+		"warning": "Uwaga!",
+		"paragraph1": {
+			"part1": "Kod należy wprowadzić",
+			"part2": "Przed wyborem miejsca płatności!"
+		},
+		"title4": "Krok 3. Weryfikacja kodu",
+		"unorderedList3": {
+			"listItem1": {
+				"part1": "Jeśli zrobiłeś wszystko poprawnie - zobaczysz wiadomość, że kod promocyjny",
+				"part2": "ALIAKSANDR8C6M",
+				"part3": "został pomyślnie aktywowany."
+			}
+		},
+		"paragraph2": "Gratulacje! Po 30 dniach otrzymasz 30 zł na saldo przy przedłużeniu pracy na drugi miesiąc planu taryfowego."
+	}
+}
