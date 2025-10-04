@@ -29,8 +29,8 @@ export const Orange = async () => {
 						<Image
 							className={styles.qr}
 							src={'/images/qr-code.png'}
-							width={140}
-							height={140}
+							width={230}
+							height={230}
 							alt={'qr-code'}
 						/>
 					</div>

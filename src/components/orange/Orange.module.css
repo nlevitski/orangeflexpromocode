@@ -2,7 +2,7 @@
 	position: relative;
 	display: flex;
 	flex-direction: column;
-	padding: 16px 0;
+	padding: 16px 5vw;
 	background-color: #ff5c17;
 	box-sizing: border-box;
 	overflow: hidden;
@@ -24,7 +24,7 @@
 	font-size: 4.2vw;
 	color: #ffffff;
 	text-transform: none;
-	margin-left: 22px;
+	margin-left: 5vw;
 	text-indent: -3px;
 	white-space: wrap;
 	word-spacing: -1px;
@@ -64,7 +64,7 @@
 	/* align-self: flex-end; */
 	line-height: 0;
 	flex-grow: 1;
-	max-width: 180px;
+	max-width: 240px;
 }
 .asterisk {
 	min-width: 32px;
@@ -93,6 +93,7 @@
 	display: flex;
 	flex-direction: column;
 	align-items: flex-end;
+	margin-top: -4vw;
 	font-size: 25vw;
 }
 .third {
@@ -144,9 +145,13 @@
 }
 
 @media (min-width: 961px) {
+	.first {
+		align-items: center;
+	}
 	.second {
 		display: block;
 		overflow: hidden;
+		margin-top: 2vw;
 	}
 	.info {
 		float: left;
@@ -156,7 +161,9 @@
 		line-height: 1.2;
 		list-style-position: inside;
 	}
-
+	.qrBox {
+		max-width: 320px;
+	}
 	.part2 {
 		display: inline;
 		float: right;
