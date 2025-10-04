@@ -1,7 +1,7 @@
 import { getLocale, getMessages, getTranslations } from 'next-intl/server';
 import styles from './InstructionStep.module.css';
 import Image from 'next/image';
-import { Splitter } from '@/app/utils/splitter';
+import { Splitter } from '@/utils/splitter';
 import { LangButtonSwitcher } from '../langButtonSwitcher/LangButtonSwitcher';
 import { NextIntlClientProvider } from 'next-intl';
 import { ExternalLink } from '../externalLink/ExternalLink';
@@ -22,31 +22,29 @@ export const InstructionStep = async () => {
 			</div>
 			<div className={styles.box}>
 				<div className={styles.column}>
-                    <h2
-                        className={`${styles.title} ${styles.m0} ${styles.textCenter}`}
-                    >
+					<h2 className={`${styles.title} ${styles.m0} ${styles.textCenter}`}>
 						{t('title1')}
 					</h2>
-                    <hr className={`${styles.hr} ${styles.selfCenter}`} />
+					<hr className={`${styles.hr} ${styles.selfCenter}`} />
 					<ul className={styles.list}>
 						<li className={styles.listItem}>{t('unorderedList1.listItem1')}</li>
 						<li className={styles.listItem}>{t('unorderedList1.listItem2')}</li>
 					</ul>
 					{currentLocale === 'ru' && (
 						<>
-                            <p
-                                className={`${styles.paragraph} ${styles.center} ${styles.upper} ${styles.mb0}`}
-                            >
+							<p
+								className={`${styles.paragraph} ${styles.center} ${styles.upper} ${styles.mb0}`}
+							>
 								<strong>{t('steps.step1.warning')}</strong>
 							</p>
 							<p className={styles.paragraph}>{t('steps.step1.paragraph')}</p>
 						</>
 					)}
 
-                    <ExternalLink
-                        href={'https://flexapp.pl/G3w9xHXiNo2CCCvd9'}
-                        className={`${styles.selfCenter} ${styles.centerTop32}`}
-                    >
+					<ExternalLink
+						href={'https://flexapp.pl/G3w9xHXiNo2CCCvd9'}
+						className={`${styles.selfCenter} ${styles.centerTop32}`}
+					>
 						{t('button.downloadOrangeApp')}
 					</ExternalLink>
 				</div>
@@ -60,7 +58,7 @@ export const InstructionStep = async () => {
 				/>
 			</div>
 			<div className={styles.container}>
-                <h2 className={`${styles.title} ${styles.textCenter}`}>
+				<h2 className={`${styles.title} ${styles.textCenter}`}>
 					{t('title2')}
 				</h2>
 				<div className={styles.steps}>
@@ -130,13 +128,13 @@ export const InstructionStep = async () => {
 						</div>
 					</div>
 				</div>
-                <ExternalLink
-                    href={
-                        'https://telegra.ph/Orange-Flex-How-to-get-a-Polish-SIM-card-before-coming-to-Poland-and-a-bonus-of-30z%C5%82--7--FREE-INTERNET-01-03'
-                    }
-                    className={`${styles.selfCenter} ${styles.wrap}`}
-                    marginH
-                >
+				<ExternalLink
+					href={
+						'https://telegra.ph/Orange-Flex-How-to-get-a-Polish-SIM-card-before-coming-to-Poland-and-a-bonus-of-30z%C5%82--7--FREE-INTERNET-01-03'
+					}
+					className={`${styles.selfCenter} ${styles.wrap}`}
+					marginH
+				>
 					{t('button.detailedTextWithPhotoAndVideo')}
 				</ExternalLink>
 				<div className={styles.box}>
@@ -157,10 +155,10 @@ export const InstructionStep = async () => {
 							</li>
 							<p>{t('unorderedList2.paragraph')}</p>
 						</ul>
-                        <p className={`${styles.paragraph} ${styles.mb0}`}>
+						<p className={`${styles.paragraph} ${styles.mb0}`}>
 							{t('warning')}
 						</p>
-                        <p className={`${styles.paragraph} ${styles.m0}`}>
+						<p className={`${styles.paragraph} ${styles.m0}`}>
 							<span>{t('paragraph1.part1') + ' '}</span>
 							<span className={styles.upper}>
 								<strong>{t('paragraph1.part2')}</strong>

@@ -57,7 +57,7 @@ jobs:
             pnpm install --frozen-lockfile
 
             # Собираем проект на сервере
-            pnpm run build
+            pnpm next build
 
             # Перезапускаем приложение с помощью PM2
             pm2 restart orange
