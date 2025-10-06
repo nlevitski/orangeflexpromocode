@@ -180,7 +180,7 @@ export const InstructionStep = async () => {
 						height={1094}
 					/>
 				</div>
-				<div className={styles.box}>
+				<div className={`${styles.box} ${styles.paddingTopless}`}>
 					<div className={styles.column}>
 						<h2 className={styles.title}>{t('title4')}</h2>
 						<hr className={styles.hr} />

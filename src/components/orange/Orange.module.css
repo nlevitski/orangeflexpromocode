@@ -5,7 +5,6 @@
 	padding: 16px 5vw;
 	background-color: #ff5c17;
 	box-sizing: border-box;
-	overflow: hidden;
 }
 .title {
 	display: flex;
@@ -153,7 +152,7 @@
 	}
 	.second {
 		display: block;
-		overflow: hidden;
+
 		margin-top: 2vw;
 	}
 	.info {

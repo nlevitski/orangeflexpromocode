@@ -16,6 +16,10 @@
 .box {
 	padding: 60px 0;
 }
+.paddingTopless {
+	padding-top: 0;
+}
+
 .buttonBox {
 	display: flex;
 	flex-wrap: wrap;
@@ -111,7 +115,7 @@
 	text-transform: uppercase;
 }
 .imgInstruction {
-	margin: 0 auto;
+	margin: 32px auto 0;
 	max-width: 600px;
 	width: 100%;
 	height: auto;
@@ -122,22 +126,22 @@
 
 /* utility */
 .m0 {
-    margin: 0;
+	margin: 0;
 }
 .mb0 {
-    margin-bottom: 0;
+	margin-bottom: 0;
 }
 .textCenter {
-    text-align: center;
+	text-align: center;
 }
 .selfCenter {
-    align-self: center;
+	align-self: center;
 }
 .centerTop32 {
-    margin: 32px auto 0;
+	margin: 32px auto 0;
 }
 .wrap {
-    white-space: normal;
+	white-space: normal;
 }
 
 @media (min-width: 961px) {
