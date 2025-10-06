@@ -4,17 +4,13 @@ import { tildaSans } from '@/fonts/fonts';
 import type { ReactNode } from 'react';
 import { Footer } from '@/components/footer/Footer';
 import { Menu } from '@/components/menu/Menu';
-import { getLocale, getMessages } from 'next-intl/server';
+import { getMessages } from 'next-intl/server';
 import { NextIntlClientProvider } from 'next-intl';
-import { getMetadataForLocale } from '@/utils/metadata';
 
 export function generateStaticParams() {
 	return routing.locales.map((locale) => ({ locale }));
 }
-export async function generateMetadata() {
-	const locale = await getLocale();
-	return getMetadataForLocale(locale);
-}
+
 type LocaleLayoutProps = {
 	children: ReactNode;
 	params: Promise<{ locale: string }>;

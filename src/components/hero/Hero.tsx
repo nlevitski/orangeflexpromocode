@@ -1,7 +1,6 @@
 import { getTranslations, getLocale } from 'next-intl/server';
 import styles from './Hero.module.css';
 import { Fragment } from 'react';
-import Image from 'next/image';
 
 export const Hero = async () => {
 	const locale = await getLocale();

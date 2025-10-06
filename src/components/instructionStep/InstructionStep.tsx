@@ -43,7 +43,10 @@ export const InstructionStep = async () => {
 
 					<ExternalLink
 						href={'https://flexapp.pl/G3w9xHXiNo2CCCvd9'}
-						className={`${styles.selfCenter} ${styles.centerTop32}`}
+						style={{
+							alignSelf: 'center',
+							margin: '32px auto 0',
+						}}
 					>
 						{t('button.downloadOrangeApp')}
 					</ExternalLink>
@@ -132,7 +135,11 @@ export const InstructionStep = async () => {
 					href={
 						'https://telegra.ph/Orange-Flex-How-to-get-a-Polish-SIM-card-before-coming-to-Poland-and-a-bonus-of-30z%C5%82--7--FREE-INTERNET-01-03'
 					}
-					className={`${styles.selfCenter} ${styles.wrap}`}
+					style={{
+						alignSelf: 'center',
+						textAlign: 'center',
+						whiteSpace: 'wrap',
+					}}
 					marginH
 				>
 					{t('button.detailedTextWithPhotoAndVideo')}

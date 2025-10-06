@@ -2,6 +2,7 @@ import { getLocale, getTranslations } from 'next-intl/server';
 import { tildaSans } from '@/fonts/fonts';
 import { Metadata } from 'next';
 import { routing } from '@/i18n/routing';
+import { icons } from '@/utils/icons';
 
 export async function generateMetadata(): Promise<Metadata> {
 	const t = await getTranslations('notFound');
@@ -28,6 +29,7 @@ export async function generateMetadata(): Promise<Metadata> {
 				canonicalPaths.map((c) => [c.locale, c.path]),
 			),
 		},
+		icons,
 	};
 }
 

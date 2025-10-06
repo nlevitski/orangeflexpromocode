@@ -39,6 +39,7 @@ export const InstructionHero = async () => {
 						alignSelf: 'center',
 						margin: '32px 0 0',
 						textTransform: 'uppercase',
+						whiteSpace: 'wrap',
 					}}
 				>
 					{tIH('button.downloadOrangeApp')}
